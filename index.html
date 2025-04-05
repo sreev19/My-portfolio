@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srivalli | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS Animation Library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">U.Srivalli</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <header class="hero">
+
+
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Srivalli</span></h1>
+      <p><span class="typing"></span></p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- Sections (To be filled later) -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <img src="dp.png" alt="Srivalli Photo" class="about-img" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm Upputuri Srivalli, a passionate Computer Science student with a love for data,
+          creativity, and technology. Currently exploring the world of Data Analysis & Python.
+          I believe in learning, growing, and building cool stuff!
+        </p>
+    
+      </div>
+    </div>
+  </section>
+  
+ 
+  
+  <section id="skills" class="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Excel</div>
+      <div class="skill-card">Pandas</div>
+      <div class="skill-card">NumPy</div>
+      <div class="skill-card">Matplotlib</div>
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">SQL</div>
+    </div>
+  </section>
+  
+  <section id="projects" class="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Sales Dashboard Thumbnail" class="project-img" />
+            <h3>Sales Dashboard</h3>
+            <p>Analyzed sales data using Excel & Python. Created visual insights and KPIs.</p>
+            <p><strong>Tools:</strong> Excel, Pandas, Matplotlib</p>
+            <a href="https://github.com/sreev19/sales-dashboard" target="_blank">View on GitHub</a>
+          </div>
+          
+          <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Portfolio Website Thumbnail" class="project-img" />
+            <h3>Portfolio Website</h3>
+            <p>This site you're viewing right now – fully responsive using HTML, CSS, JS.</p>
+            <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/sreev19/portfolio" target="_blank">View on GitHub</a>
+          </div>
+          
+  
+      <!-- Add more projects if needed -->
+    </div>
+  </section>
+
+  
+  <section id="resume"> </section>
+  <section class="resume-section">
+    <a href="U Srivalli.pdf" download class="resume-btn">View Resume</a>
+  </section>
+  
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Let's connect and build something awesome together!</p>
+  
+   
+  
+    <div class="social-icons">
+
+        <a href="mailto:srivalli@example.com" target="_blank" title="Email">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" />
+        </a>
+      
+        <a href="tel:+919876543210" target="_blank" title="Phone">
+          <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Phone Icon" />
+        </a>
+      
+        <a href="https://github.com/sreev19" target="_blank" title="GitHub">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" />
+        </a>
+      
+        <a href="https://www.linkedin.com/in/upputuri-s-7a950231b" target="_blank" title="LinkedIn">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon" />
+        </a>
+      
+      </div>
+      
+      <form action="https://formsubmit.co/upputurisrivalli@gmail.com" method="POST" class="contact-form">
+        <!-- Hide spam bot field -->
+        <input type="hidden" name="_captcha" value="false">
+      
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      
+        <button type="submit">Send Message</button>
+      </form>
+      
+  </section>
+  
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  
+</body>
+</html>
